@@ -1,40 +1,56 @@
-body{
-    background-image: url(../imagen/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+/* General */
+body {
+  background-image: url(../imagen/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
-#nombre{
-    margin-top: 100px;
+h2 {
+  margin: 0px;
 }
-#datos{
-    margin-top: 50px;
-    margin-bottom: 100px;
+p {
+  margin: 0px;
 }
-#otros{
-    margin-top: 50px;
-    border-top: 5px solid white;
-    background-color: goldenrod;
-    color: black;
+h1 {
+  margin-bottom: 0px;
 }
-.instagram{
-    color:rgb(168, 1, 90)
+td {
+  margin: 100px;
 }
-.facebook{
-    color: rgb(0, 112, 150);
+/* FIN General */
+/* Sección nombre */
+#nombre {
+  margin-top: 100px;
+  margin-left: 100px;
 }
-.linkedln{
-    color: blue;
+#presentacion {
+  margin-left: 100px;
 }
-h2{
-    margin: 0px;
+/* Sección datos */
+#datos {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 100px;
 }
-p{
-    margin: 0px;
+/* Foto */
+#foto {
+  margin-left: 100px;
 }
-h1{
-    margin-bottom: 0px;
+/* Sección redes */
+#redes {
+  margin-top: 50px;
+  border-top: 5px solid white;
+  background-color: goldenrod;
+  color: black;
+  padding-left: 100px;
 }
-td{
-    margin: 100px;
+.instagram {
+  color: rgb(168, 1, 90);
 }
+.facebook {
+  color: rgb(0, 112, 150);
+}
+.linkedln {
+  color: blue;
+}
+/* FIN Sección redes */
